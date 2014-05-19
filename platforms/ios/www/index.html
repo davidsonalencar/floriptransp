@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="cordova.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+    </head>
+    <body>
+        <div id="container">
+            <div class="section" id="routes">
+                <form>
+                    <input type="search" id="route" placeholder="Write a street..."><input type="submit" value="Search"><input type="button" id="button-maps" value="Maps">
+                </form>
+                <ul class="list"></ul>
+            </div>
+            <div class="section" id="details">
+                <h2>
+                    <span></span>
+                    <button class="back">Back</button>
+                </h2>
+                <ul class="list"></ul>
+            </div>
+            <div class="section" id="maps">
+                <h2>
+                    <span>Select Street on Map</span>
+                    <button class="back">Back</button>
+                </h2>
+                <div id="canvas"></div>
+            </div>
+        </div>
+    </body>
+</html>

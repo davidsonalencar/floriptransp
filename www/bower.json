@@ -1,0 +1,9 @@
+{
+  "name": "FloripTransp",
+  "version": "1.0.0",
+  "description": "Code Challenger TouchArc - App which searches some routes and timetables of Florianópolis's public transportation",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
