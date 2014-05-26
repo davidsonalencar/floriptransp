@@ -14,7 +14,7 @@ To create a smaller scope, application testing performed only on iOS platform.
 
 ### Clone files from repository
 ```
-git colne https://github.com/davidsonalencar/floriptransp.git
+git clone https://github.com/davidsonalencar/floriptransp.git
 ```
 
 ### JS Library (jQuery):
